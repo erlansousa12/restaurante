@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Cebolão</h1>
+
+
+    </header>
+    <main>
+        <!-- Tabela do Cardápio -->
+        <section>
+            <h2>Cardápio</h2>
+            <table id="tabela-cardapio">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabela">
+                    <!-- Itens carregados dinamicamente -->
+                </tbody>
+            </table>
+        </section>
+        <!-- Resumo do Pedido -->
+        <section>
+            <h2>Pedido</h2>
+            <div id="resumo-pedido"></div>
+            <h3>Total: R$ <span id="total-pedido">0.00</span></h3>
+            <button onclick="fecharComanda()">Fechar Comanda</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurante</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

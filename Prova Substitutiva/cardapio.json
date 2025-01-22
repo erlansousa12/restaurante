@@ -1,0 +1,13 @@
+{
+    "CARDAPIO": {
+        "PRODUTOS": [
+            { "id": "1", "descricao": "Pão na chapa", "preco": "R$4,00" },
+            { "id": "2", "descricao": "Pão de queijo", "preco": "R$5,00" },
+            { "id": "3", "descricao": "Pão com queijo", "preco": "R$10,00" },
+            { "id": "4", "descricao": "Misto quente", "preco": "R$15,00" },
+            { "id": "5", "descricao": "Salgado assado", "preco": "R$9,00" },
+            { "id": "6", "descricao": "Salgado frito", "preco": "R$8,00" },
+            { "id": "7", "descricao": "Fatia de torta salgada", "preco": "R$10,00" }
+        ]
+    }
+}
